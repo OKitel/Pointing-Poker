@@ -20,7 +20,7 @@ import {
     LinkToLobby,
     StartButton,
     MembersField,
-} from '../../components';
+} from '../../Components';
 import styles from './Lobby.module.scss';
 import { User } from '../../types/user';
 
