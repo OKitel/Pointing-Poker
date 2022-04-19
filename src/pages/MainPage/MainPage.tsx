@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import pokerPlanning from '../../assets/images/poker-planning.svg';
-import { ConnectForm, NewSession } from '../../components';
+import { ConnectForm, NewSession } from '../../Components';
 import styles from './MainPage.module.scss';
 
 export function MainPage(): JSX.Element {
