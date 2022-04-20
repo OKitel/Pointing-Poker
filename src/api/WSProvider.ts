@@ -24,7 +24,7 @@ export class WSProvider implements WSProviderInterface {
     }
 
     async connects(): Promise<void> {
-        const url = `ws://${SERVER_URL.split('://')[1]}ws`;
+        const url = `wss://${SERVER_URL.split('://')[1]}ws`;
         try {
             if (!this.game?.gameID) throw new Error('нет gameID');
             this.socket = new WebSocket(url);

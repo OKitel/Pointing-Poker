@@ -2,7 +2,7 @@
     "name": "poker-planning",
     "version": "1.0.0",
     "private": true,
-    "homepage": "https://okitel.github.io/Pointing-Poker/",
+    "homepage": "https://jovial-maamoul-0dab99.netlify.app",
     "dependencies": {
         "@material-ui/core": "^4.12.4",
         "@material-ui/icons": "^4.11.3",
@@ -35,7 +35,7 @@
         "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache",
         "eject": "react-scripts eject",
         "lint": "tsc --noEmit && eslint --ext .js,.jsx,.ts,.tsx src --fix",
-        "deploy": "gh-pages -d build",
+        "deploy": "netlify deploy",
         "predeploy": "npm run build"
     },
     "eslintConfig": {
