@@ -1,23 +1,19 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.0565853e.chunk.css",
-    "main.js": "/build/static/js/main.f5fe6dad.chunk.js",
-    "main.js.map": "/build/static/js/main.f5fe6dad.chunk.js.map",
-    "runtime-main.js": "/build/static/js/runtime-main.528bbda8.js",
-    "runtime-main.js.map": "/build/static/js/runtime-main.528bbda8.js.map",
-    "static/js/2.15999420.chunk.js": "/build/static/js/2.15999420.chunk.js",
-    "static/js/2.15999420.chunk.js.map": "/build/static/js/2.15999420.chunk.js.map",
-    "index.html": "/build/index.html",
-    "static/css/main.0565853e.chunk.css.map": "/build/static/css/main.0565853e.chunk.css.map",
-    "static/js/2.15999420.chunk.js.LICENSE.txt": "/build/static/js/2.15999420.chunk.js.LICENSE.txt",
-    "static/media/gameCard.module.scss": "/build/static/media/mountains.b99b68e3.jpg",
-    "static/media/poker-planning.14acbaf0.svg": "/build/static/media/poker-planning.14acbaf0.svg",
-    "static/media/footer.module.scss": "/build/static/media/rss.0757eaef.svg"
+    "main.css": "/Pointing-Poker/static/css/main.d5812d20.css",
+    "main.js": "/Pointing-Poker/static/js/main.05a7ea60.js",
+    "static/media/eagle.jpg": "/Pointing-Poker/static/media/eagle.2f1240d2d350135dd65f.jpg",
+    "static/media/moon.jpg": "/Pointing-Poker/static/media/moon.65a66d80b4d396fa4ab5.jpg",
+    "static/media/poker-planning.svg": "/Pointing-Poker/static/media/poker-planning.14acbaf0799a68bf98e6d2ac323cd3a5.svg",
+    "static/media/leaf.jpg": "/Pointing-Poker/static/media/leaf.9dcda1e8873e69e51fcf.jpg",
+    "static/media/mountains.jpg": "/Pointing-Poker/static/media/mountains.b99b68e385771e548b08.jpg",
+    "static/media/rss.svg": "/Pointing-Poker/static/media/rss.0757eaef4e536a5e736f.svg",
+    "index.html": "/Pointing-Poker/index.html",
+    "main.d5812d20.css.map": "/Pointing-Poker/static/css/main.d5812d20.css.map",
+    "main.05a7ea60.js.map": "/Pointing-Poker/static/js/main.05a7ea60.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.528bbda8.js",
-    "static/js/2.15999420.chunk.js",
-    "static/css/main.0565853e.chunk.css",
-    "static/js/main.f5fe6dad.chunk.js"
+    "static/css/main.d5812d20.css",
+    "static/js/main.05a7ea60.js"
   ]
 }
