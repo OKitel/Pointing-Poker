@@ -55,8 +55,8 @@ test('check statistic when there is an observer, issue 1', () => {
             },
         },
     ];
-
-    const result = makeStatisticCards(selectedCards);
+    const dealerIsPlaying = true;
+    const result = makeStatisticCards(selectedCards, dealerIsPlaying);
     expect(result).toMatchObject(statisticCards);
     expect(result).toBeTruthy();
     expect(result).toBeDefined();

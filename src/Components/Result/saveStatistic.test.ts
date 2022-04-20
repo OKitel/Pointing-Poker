@@ -6,8 +6,9 @@ test('check empty arrays statistic', () => {
     const issues: Issue[] = [];
     const oldStatistic: { issue: Issue; statisticCards: StatisticCard[] }[] = [];
     const selectedCards: Array<{ card: Card | undefined; user: User }> = [];
+    const dealerIsPlaying = true;
 
-    const result = saveStatistic(issues, oldStatistic, selectedCards);
+    const result = saveStatistic(issues, oldStatistic, selectedCards, dealerIsPlaying);
     expect(result).toMatchObject([]);
 });
 
@@ -187,8 +188,9 @@ test('check statistic when there is an observer, issue 1', () => {
             ],
         },
     ];
+    const dealerIsPlaying = true;
 
-    const result = saveStatistic(issues, oldStatistic, selectedCards);
+    const result = saveStatistic(issues, oldStatistic, selectedCards, dealerIsPlaying);
     expect(result).toMatchObject(correctResult);
     expect(result).toBeTruthy();
     expect(result).toBeDefined();
@@ -392,7 +394,7 @@ test('check statistic when there is an observer, new issue', () => {
             ],
         },
     ];
-
-    const result = saveStatistic(issues, oldStatistic, selectedCards);
+    const dealerIsPlaying = true;
+    const result = saveStatistic(issues, oldStatistic, selectedCards, dealerIsPlaying);
     expect(result).toMatchObject(correctResult);
 });
