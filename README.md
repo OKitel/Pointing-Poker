@@ -5,36 +5,52 @@ It is an application for conducting sessions to assess the complexity of the wor
 ![image](https://user-images.githubusercontent.com/79774026/136846458-35196b49-c45f-450f-9c77-601195a16922.png)
 
 ## Authors
-This application was created by [LenarFF](https://github.com/LenarFF), [lexomut](https://github.com/lexomut), [OKitel](https://github.com/OKitel). 
 
+This application was created by [LenarFF](https://github.com/LenarFF), [lexomut](https://github.com/lexomut), [OKitel](https://github.com/OKitel).
 
-## Technologies/Libraries  
+## Technologies/Libraries
+
+### MERN
+
+This project is using MERN stack.
+![image](./img/MERN-logo.png)
+M - MongoDB  
+E - Express  
+R - React  
+N - Node.js
+
 ### Package manager:
- * npm
+
+- npm
 
 ### Version control:
- * git
 
-### Code: 
- * create react app
- * React: dom, router-dom, scripts.
- * Typescript
- * Code was analyzed by ESlint and prettier.
+- git
+
+### Code:
+
+- create react app
+- React: dom, router-dom, scripts.
+- Typescript
+- Code was analyzed by ESlint and prettier.
 
 ### Design:
- * SASS
- * Material-UI: core, icons, lab, utils.
- * clsx
+
+- SASS
+- Material-UI: core, icons, lab, utils.
+- clsx
 
 ### Interaction client-server:
- * axios (HTTP client for the browser)
- * WebSocket
+
+- axios (HTTP client for the browser)
+- WebSocket
 
 ### Export data:
- * export-from-json
+
+- export-from-json
 
 ### Tests:
- * Testing library: react, jest, jest-dom, user-event.
 
-### [Server](https://github.com/lexomut/-Pointing-Poker-Server)
-  
+- Testing library: react, jest, jest-dom, user-event.
+
+### [Server](https://github.com/OKitel/Pointing-Poker-Server)
