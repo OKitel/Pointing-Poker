@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# :flower_playing_cards: [Pointing-Poker](https://powerful-thicket-63015.herokuapp.com/) :flower_playing_cards:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is an application for conducting sessions to assess the complexity of the work ahead or the relative volume of tasks to be solved in software development.
 
-## Available Scripts
+![image](https://user-images.githubusercontent.com/79774026/136846458-35196b49-c45f-450f-9c77-601195a16922.png)
 
-In the project directory, you can run:
+## Authors
 
-### `yarn start`
+This application was created by [LenarFF](https://github.com/LenarFF), [lexomut](https://github.com/lexomut), [OKitel](https://github.com/OKitel).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies/Libraries
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### MERN
 
-### `yarn test`
+This project is using MERN stack.
+![image](./img/MERN-logo.png)
+M - MongoDB  
+E - Express  
+R - React  
+N - Node.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Package manager:
 
-### `yarn build`
+- npm
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Version control:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Code:
 
-### `yarn eject`
+- create react app
+- React: dom, router-dom, scripts.
+- Typescript
+- Code was analyzed by ESlint and prettier.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Design:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- SASS
+- Material-UI: core, icons, lab, utils.
+- clsx
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Interaction client-server:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- axios (HTTP client for the browser)
+- WebSocket
 
-## Learn More
+### Export data:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- export-from-json
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Tests:
+
+- Testing library: react, jest, jest-dom, user-event.
+
+### [Server](https://github.com/OKitel/Pointing-Poker-Server)
